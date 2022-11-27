@@ -2,7 +2,7 @@
   "name": "personalportfoliowebsite",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./public/app.js",
   "scripts": {
     "serve": "node app",
     "dev": "nodemon app"
