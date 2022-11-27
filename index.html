@@ -10,5 +10,16 @@
     <h1>Hello!</h1>
     <h2>New!</h2>
     <p>I'm Vasil. How are you?</p>
+
+    <form action="/subscribe" method="POST">
+        <input type="email" id="useremail" placeholder="Email Address" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        <p id="error">Please, enter a valid email address!</p>
+        <input type="submit" value="Subscribe" id="cta">
+    </form>
+
+    <div id="success">
+        <h1>You are subscribed!</h1>
+    </div>
+
 </body>
 </html>
